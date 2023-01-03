@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+</head>
+<body>
+<H1>Mahmud Alptekin Portfolio</H1>
+<p>Hello and welcome to my portfolio.This website was made by using Python Flask framework. It reads from a text file to get the repo links and as well as the title names and description Here you can find some of my select projects. If you like to check out more of my projects click the link <a href="https://github.com/supascooopa">here</a> to visit my Github </p>
+{%for project in repo_list:%}
+    <ol>
+        <li><a href={{project}}><span>{{ repo_list[project][0] }}</span></a>
+            <h6>{{ repo_list[project][1] }}</h6>
+        </li>
+    </ol>
+{% endfor %}
+<P>THANK YOU!</P>
+</body>
+</html>

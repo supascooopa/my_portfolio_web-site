@@ -1,0 +1,16 @@
+Flask Productivity project
+A RESTful API inorder to reach my automation scripts from remote location.
+IMEI sorting machine
+Sorts a column-wise list of IMEIs to row-wise list with brands and models added.
+Morse coder
+Codes text into morse code and vice versa.
+My Blog
+A completed blog project for online course.
+PDF to Excel converter
+A ETL pipeline designed to extract tabular data from a PDF and transform it into an excel workbook.
+PO automator
+Another ETL pipeline that extracts data from an excel sheet and organize and transforms it into a well organized purchasing order.
+TIC-TAC-TOE game
+A text based tic-tac-toe game all the family can enjoy
+Web form automator
+Automates the form entry process for the chamber of electrical engineering.
