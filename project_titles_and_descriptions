@@ -1,7 +1,7 @@
 Flask Productivity project
-A RESTful API inorder to reach my automation scripts from remote location.
+A web app built with REST architecture in order to reach my automation scripts from other locations.
 IMEI sorting machine
-Sorts a column-wise list of IMEIs to row-wise list with brands and models added.
+Sorts a column wise list of IMEIs to row wise list with brands and models added.
 Morse coder
 Codes text into morse code and vice versa.
 My Blog
