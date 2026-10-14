@@ -1,0 +1,9 @@
+title: Hello and Welcome
+introduction: Hello this is my portfolio edit inside this server to customize it!
+projects:
+  - link:
+      This is where the link goes
+    title:
+      This is where your project title goes.
+    description:
+      This is where the description of your project goes.
